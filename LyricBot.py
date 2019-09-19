@@ -1,11 +1,13 @@
+#Copyright © 2019 LouisMin2
+
+
 import json
 
 with open('Keys.json') as json_file:
     keys = json.load(json_file)
 
 import billboard as bb #https://github.com/guoguo12/billboard-charts 
-
-
+#Copyright © 2019 LouisMin2
 ChartsList=['hot-100',
             'billboard-200',
             'streaming-songs',
@@ -67,12 +69,12 @@ print(RadioSongsChart_df)
 
 from random import *
 import re
-
+#Copyright © 2019 LouisMin2
 randomnum = randint(0, len(RadioSongsChart_df)-1)  # Pick a random index number from the ChartDF.
 print(randomnum)
 Song_Name = RadioSongsChart_df['Song_Title'][randomnum]
 Artist = RadioSongsChart_df['Artists'][randomnum]
-
+#Copyright © 2019 LouisMin2
 print(Song_Name)
 print(Artist)
 
@@ -104,6 +106,7 @@ Lyrics_df
 element = ""
 Lyrics_df['Element'] = ""
 for x in range(len(Lyrics_df)):
+#Copyright © 2019 LouisMin2
     
     if '[' in Lyrics_df['Lyrics'][x] and ']' in Lyrics_df['Lyrics'][x]:
         element = Lyrics_df['Lyrics'][x] # the text contains element [xxxxx] , then element is assigned to that.  
@@ -133,7 +136,7 @@ print(Lyrics_df)
 
 
 #choose a random element from the song
-
+#Copyright © 2019 LouisMin2
 from pandasql import *
 pysqldf = lambda q: sqldf(query, globals())
 query = """
@@ -161,6 +164,7 @@ Where Element LIKE """+str(Chosen_Element)+"""
 """
 ChosenElement_df = pysqldf(query)
 ChosenElement_df
+#Copyright © 2019 LouisMin2
 
 
 
@@ -190,7 +194,7 @@ Tweet = TweetText_Lyric + "\n\n\n"+TweetText_Song_Title + " by " + TweetText_Art
 print(Tweet)
 
 
-
+#Copyright © 2019 LouisMin2
 import tweepy as tp
 consumer_key = keys['Twitter_Consumer_Key']
 consumer_secret = keys['Twitter_Consumer_Secret']
