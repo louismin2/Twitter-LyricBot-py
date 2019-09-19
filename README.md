@@ -14,5 +14,8 @@ Packages Used :
 
 Deployed on Google Cloud Console - Compute Engine
 
+Project last edited on 19/9/2019
+I can continue and add some analytics flair to further develop this project, but that bandwidth has been allocated to indulging in more projects.
+
 
 Do contact me at louismineopersonalprojects@gmail.com for any further enquiries.
