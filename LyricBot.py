@@ -1,5 +1,11 @@
 #Copyright © 2019 LouisMin2
 
+__author__ = 'LouisMin2'
+__version__ = "1.0.1"
+__maintainer__ = "LouisMin2"
+__email__ = "louismineopersonalprojects@gmail.com"
+__status__ = "Production"
+
 
 import json
 
