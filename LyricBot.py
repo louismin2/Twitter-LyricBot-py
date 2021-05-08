@@ -95,7 +95,7 @@ genius = lyricsgenius.Genius(keys['Genius_Key'])
 #Parameters
 genius.verbose = True # Turn off status messages
 genius.remove_section_headers = False # Remove section headers (e.g. [Chorus]) from lyrics when searching
-genius.skip_non_songs = False # Include hits thought to be non-songs (e.g. track lists)
+genius.skip_non_songs = True # Include hits thought to be non-songs (e.g. track lists)
 genius.excluded_terms = ["(Remix)", "(Live)","(Traduction Française)"] # Exclude songs with these words in their title
 
 
