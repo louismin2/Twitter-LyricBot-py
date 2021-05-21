@@ -1,0 +1,9 @@
+$ pip3 install billboard.py --user
+$ pip3 install random --user
+$ pip3 install PyLyrics --user
+$ pip3 install lyricsgenius --user
+$ pip3 install pandasql --user
+$ pip3 install pandas --user
+$ pip3 install tweepy --user
+$ pip3 install re --user
+$ pip3 install regex --user

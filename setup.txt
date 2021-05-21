@@ -1,0 +1,22 @@
+To set up the twitter lyric bot
+
+1. Install the python packages (via the terminal, not py file)
+
+2. Test whether the script works using by entering python <python filename>.py and press enter
+
+3. install tmux (sudo apt-get install tmux)\
+    run the tmux command in the linux terminal so that another copy of the terminal is running even after you have disconn$
+    
+
+4. Choose the running tmux session and enter into it
+    (open the session using $ tmux a -t 0
+    )
+5. Open crontab to access your cron jobs
+
+6. Paste in this cronjob command  
+
+7. Save and leave the cronjob
+
+8. kill the ssh, not the tmux. (trying to detach from the tmux session will stop the session
+
+
